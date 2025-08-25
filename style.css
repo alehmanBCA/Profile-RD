@@ -1,0 +1,140 @@
+/* Style the entire page */
+html {
+    background-color: black;
+    height: 155%;
+}
+
+/* style all of the 'h2' text. */
+h2 {
+    color: blue
+}
+
+/* Style the hobbies list */
+.hobbies-list {
+    color: cyan;
+    font-family: cursive;
+    
+/* Style the calendar title */
+}
+#calendar {
+    color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+}
+
+/* Style the items within the calendar */
+#calendar-items {
+    text-align: center;
+}
+
+/* Style the about-me title */
+.about-me-title {
+    font-size: 30px;
+    color: cyan;
+    font-family:inherit;
+
+}
+
+/* Style the hobbies title */
+.my-hobbies-title {
+    font-size: 30px;
+    color: cyan;
+    font-family:inherit;
+    margin: 50px 0px auto;
+}
+
+/* Style the weekly schedule */
+.my-weekly-schedule {
+    font-size: 30px;
+    font-family: inherit;
+    padding: 50px 0px 10px;
+}
+
+/* Style the about me sentences */
+#about-me {
+    color: cyan;
+    font-family: cursive;
+    font-size: medium;
+}
+
+/* Style the links. */
+a {
+    color :rgb(255, 255, 255);
+}
+
+/* Style the images */
+img {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+/* Style the sentence under the 'My Hobbies' text. */
+#hobbies-sentence {
+    color: cyan;
+    font-family: cursive;
+}
+
+.internal-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bottom-internal-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+}
+
+@media (width < 600px) {
+    html {
+        background-color: gray;
+        width: auto
+    }
+
+    #calendar {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .my-weekly-schedule {
+        font-size: 30px;
+    }
+
+    .internal-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-internal-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* td, tr { display: block; }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #E74C3C; }
+    tr + tr { margin-top: 1.5em; }
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+    td:before {
+        content: attr(data-label);
+        display: inline-block;
+        line-height: 1.5;
+        margin-left: -100%;
+        width: 100%;
+        white-space: nowrap;
+    } */
+}
