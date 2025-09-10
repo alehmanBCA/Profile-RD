@@ -1,12 +1,7 @@
 /* Style the entire page */
-html {
+.entire-page {
     background-color: black;
     height: 155%;
-}
-
-/* style all of the 'h2' text. */
-h2 {
-    color: blue
 }
 
 /* Style the hobbies list */
@@ -79,13 +74,9 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-}
-
-.bottom-internal-links {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    color: white;
+    background-color:rgba(0, 217, 255, 0.461);
+    height:30px;
+    align-items:center;
 }
 
 @media (width < 600px) {
@@ -106,35 +97,7 @@ img {
     .internal-links {
         display: flex;
         flex-direction: column;
+        text-align:center;
+        height:80px;
     }
-
-    .bottom-internal-links {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* td, tr { display: block; }
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-
-    tr { border: 1px solid #E74C3C; }
-    tr + tr { margin-top: 1.5em; }
-    td {
-        border: none;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 50%;
-        text-align: left;
-    }
-    td:before {
-        content: attr(data-label);
-        display: inline-block;
-        line-height: 1.5;
-        margin-left: -100%;
-        width: 100%;
-        white-space: nowrap;
-    } */
 }

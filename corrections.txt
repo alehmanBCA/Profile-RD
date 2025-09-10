@@ -1,0 +1,4 @@
+-Gave <html> tag a tag name.
+-Removed the bottom nav bar.
+-Centered the nav bar when in phone screen.
+-Gave the nav bar a background color.
