@@ -54,12 +54,12 @@
 }
 
 /* Style the links. */
-a {
+.about-me-link, .hobbies-link, .images-link, .calendar-link, .lafayette-link, .bcca-link {
     color :rgb(255, 255, 255);
 }
 
 /* Style the images */
-img {
+.video-games-img, .bowling-img, .four-wheel-img, .ferrari-img, .ferrari-2-img, .ford-gt-img, .cobra-img, .cobra-2-img {
     border-style: solid;
     border-color: rgb(255, 255, 255);
 }
@@ -80,7 +80,7 @@ img {
 }
 
 @media (width < 600px) {
-    html {
+    .entire-page {
         background-color: gray;
         width: auto
     }
